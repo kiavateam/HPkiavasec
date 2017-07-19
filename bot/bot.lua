@@ -1,6 +1,6 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "374465004:AAGw-lXQgNMAK_k1E0SI3shftqWF3xeJrwU" --Put You Token Here
+bot_token = "387388679:AAGigIsiGGNHfDL3buqTLogQ89XcFQyRJzs" --Put You Token Here
 send_api = "https://api.telegram.org/bot"..bot_token
 sudo_id = 247134702
 require('./bot/methods')
