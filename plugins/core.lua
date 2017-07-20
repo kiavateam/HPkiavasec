@@ -2670,11 +2670,11 @@ if matches[1] == '/kiava' then
 	keyboard = {} 
 	keyboard.inline_keyboard = {
 		{
-			{text = "> سعید", callback_data="/solid:"..matches[2]}, 
-			{text = "> طوفان", callback_data="/toofan:"..matches[2]}
+			{text = "> پریا", callback_data="/pariya:"..matches[2]}, 
+			{text = "> کیاوا", callback_data="/kiava:"..matches[2]}
 		},
 		{
-			{text = '> گیت هاب تیم ', url = 'https://www.github.com/kiavair'}
+			{text = '> سایت شرکت ', url = 'https://kiava.co'}
 		},
 		{
 			{text= '> بازگشت' ,callback_data = '/option:'..matches[2]}
@@ -2684,21 +2684,14 @@ if matches[1] == '/kiava' then
     edit_inline(msg.message_id, text, keyboard)
 end
 
-if matches[1] == '/solid' then
-local text = [[*》SoLiD Information《*
-_》Age :_ *26*
-_》Name :_ *Saeid Rostami*
-_》City :_ *Shahriar - Tehran*
-*-------------------------*
-*》GitHub :《*
-》[SoLiD021](Github.Com/SoLiD021)
+if matches[1] == '/pariya' then
+local text = [[*》pariya Information《*
+_》Age :_ *18*
+_》Name :_ *pariya*
+_》Country :_ *London - IRAn*
 *-------------------------*
 *》Bridges :《*
-_》Pv : _[@SoLiD](Telegram.Me/SoLiD)
-_》PvResan : _[@SoLiD Pv](Telegram.Me/SoLiD021Pv_Bot)
-*-------------------------*
-*》Expertise :《*
-_》_*Lua*, *Cli* `and` *Api* _Bots_
+_》Pv : _[@wulf_me](Telegram.Me/wulf_me)
 *-------------------------*]]
   if not lang then
 		keyboard = {} 
@@ -2717,21 +2710,20 @@ _》_*Lua*, *Cli* `and` *Api* _Bots_
   end
     edit_inline(msg.message_id, text, keyboard)
 end
-if matches[1] == '/toofan' then
-local text = [[*》ToOfan Information《*
-_》Age :_ *35*
-_》Name :_ *Ali AzizAbadi*
-_》City :_ *Bam - Kerman*
+if matches[1] == '/kiava' then
+local text = [[*》Kiava Information《*
+_》Age :_ *20*
+_》Name :_ *Kiarash Khatib*
+_》City :_ *Iran - Tehran*
 *-------------------------*
-*》GitHub :《*
-》[To0fan](GitHub.Com/To0fan)
+*》Site :《*
+》[KiavaCo.](Https://kiava.Co)
 *-------------------------*
 *》Bridges :《*
-_》Pv :_ [@ToOfan](Telegram.Me/ToOfan)
-_》PvResan :_ [@ToOfanRobot](Telegram.Me/ToOfanRobot)
+_》Pv :_ [@Kiavaco](Telegram.Me/kiavaco)
 *-------------------------*
 *》Expertise :《*
-*》C#, Lua, VB.Net, JAVA*
+*》PHP, Lua, HTML5,Css3,Jquery,AJax,Json , JAVAscript , Bootstrap*
 
 *-------------------------*]]
   if not lang then
